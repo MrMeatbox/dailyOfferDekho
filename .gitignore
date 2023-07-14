@@ -1,0 +1,47 @@
+# Ignore system-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files and folders
+.idea/
+.vscode/
+
+# Ignore composer dependencies
+/vendor/
+
+# Ignore log files
+/log/
+
+# Ignore database configuration
+/config/database.php
+
+# Ignore environment-specific configuration
+/config/.env
+
+# Ignore user uploads or media files
+/public/uploads/
+
+# Ignore session and cache files
+/public/cache/
+
+# Ignore server-specific files and folders
+/public/.htaccess
+/public/php.ini
+
+# Ignore database dumps
+/*.sql
+
+# Ignore Composer lock file
+composer.lock
+
+# Ignore Node.js dependencies
+/node_modules/
+
+# Ignore package-lock.json file (npm 5+)
+package-lock.json
+
+# Ignore yarn.lock file
+yarn.lock
+
+# Ignore any sensitive or private information
+secrets.txt
